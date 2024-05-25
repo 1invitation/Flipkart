@@ -1,0 +1,136 @@
+.head{
+width:100%;
+height:80px;
+background-color:white;
+
+
+
+}
+.inner1{
+width:100%;
+height:60px;
+display:flex;
+align-items:center;
+justify-content:space-evenly;
+background-color:white;
+
+}
+
+.logo1{
+width:120px;
+height:50px;
+
+}
+
+.f-logo{
+ width:100%;
+ height:50px;
+ background-image:url("image/logo.jpg");
+ background-size:cover;
+}
+.down{
+width:28px;
+height:36.5px;
+}
+
+.download{
+width:100%;
+height:100%;
+background-image:url("image/logo2.jpg");
+background-size:cover;
+
+}
+.head-login{
+width:55px;
+height:33px;
+}
+.login{
+height:30px;
+width:100%;
+background-image:url("image/logo3.jpg");
+background-size:cover;
+}
+
+.search-input{
+width: 100%;
+font-size: 1rem;
+border: none
+}
+
+.search-icon{
+width: 300px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size:1rem;
+background-color:#febd90;
+ borded-top-right-radius: 4px;
+border-bottom-right-radius: 4px;
+}
+.nav-search{
+width:100%
+
+}
+.nav-search:hover{
+ border:2px white;
+ }
+
+.image-slider {
+ width: 100%;
+ overflow: hidden;
+ height 10em;
+ position: relative;
+ }
+ #image-slider > * {visibility: hidden; position: absolute;
+ top: 0; left: 0; animation: 12s autoplay1 infinite}
+ 0% {visibility: visible}
+ 33.33% {visibility: hidden}
+ 
+ 
+ 
+ .slider-container {
+ display: flex;
+ width: 300%; /* Set to three times the width of a single image */
+ animation: slide 130s infinite;
+ }
+ 
+ .slider-container img {
+ width: 33.33%; /* Set to 100% divided by the number of images */
+ height: auto;
+ object-fit: cover;
+ }
+ 
+ @keyframes slide {
+ 1.5% { transform: translateX(0); }
+ 6% { transform: translateX(-33%); }
+ 10% { transform: translateX(-67%); }
+ 14% { transform: translateX(-100%); }
+ 18% { transform: translateX(-133.5%); }
+ 22% { transform: translateX(-167%); }
+ 26% { transform: translateX(-200%); }
+ 30% { transform: translateX(-233.5%); }
+ 
+   }
+ }
+ 
+ #slide > *:nth-child(1)
+ {animation-delay:2 s}
+ #slide > *:nth-child(2)
+ {animation-delay:2 s}
+ #slide > *:nth-child(3) 
+ {animation-delay:2s}
+ #slide > *:nth-child(4)
+ {animation-delay: 2s}
+ #slide > *:nth-child(5)
+ {animation-delay:2s}
+ #slide > *:nth-child(6) 
+ {animation-delay: 2s}
+ #slide > *:nth-child(7)
+ {animation-delay:2 s}
+ #slide > *:nth-child(8) 
+ {animation-delay: 2s}
+.add-photo{
+width:20px;
+height:40px;
+bacground-image:("photo1.jpg");
+}
